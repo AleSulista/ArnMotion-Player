@@ -5,9 +5,29 @@
 #import "VLCMediaDownloader.h"
 #import "ArnMotionGlassView.h"
 
+/* Background surfaces drag the window; native controls keep their actions. */
+@interface ArnMotionDownloadBackground : NSView
+@end
+@implementation ArnMotionDownloadBackground
+- (BOOL)mouseDownCanMoveWindow { return YES; }
+- (void)mouseDown:(NSEvent *)event
+{
+    if (@available(macOS 10.11, *))
+        [self.window performWindowDragWithEvent:event];
+    else
+        [super mouseDown:event];
+}
+@end
+
+@interface ArnMotionDownloadLabel : NSTextField
+@end
+@implementation ArnMotionDownloadLabel
+- (NSView *)hitTest:(NSPoint)point { return nil; }
+@end
+
 static void *ArnDownloadObservation = &ArnDownloadObservation;
 
-@interface VLCDownloadWindowController ()
+@interface VLCDownloadWindowController () <NSWindowDelegate>
 @property (nonatomic, strong, readwrite) VLCMediaDownloader *downloader;
 @property (nonatomic, strong) NSURL *downloadFolder;
 @property (nonatomic) BOOL observing;
@@ -33,10 +53,10 @@ static void *ArnDownloadObservation = &ArnDownloadObservation;
 
 - (NSTextField *)label:(NSString *)text frame:(NSRect)frame
 {
-    NSTextField *label = [[NSTextField alloc] initWithFrame:frame];
+    NSTextField *label = [[ArnMotionDownloadLabel alloc] initWithFrame:frame];
     label.stringValue = text;
     label.editable = NO;
-    label.selectable = YES;
+    label.selectable = NO;
     label.bezeled = NO;
     label.drawsBackground = NO;
     [self.window.contentView addSubview:label];
@@ -61,10 +81,24 @@ static void *ArnDownloadObservation = &ArnDownloadObservation;
     window.releasedWhenClosed = NO;
     window.collectionBehavior = NSWindowCollectionBehaviorFullScreenAuxiliary;
     // ArnMotion: use the same native dark glass as the player bars.
+    if (@available(macOS 10.10, *)) {
+        window.styleMask |= NSFullSizeContentViewWindowMask;
+        window.titlebarAppearsTransparent = YES;
+        window.titleVisibility = NSWindowTitleHidden;
+    }
+    NSRect backgroundFrame = window.contentView.frame;
+    window.contentView = [[ArnMotionDownloadBackground alloc] initWithFrame:backgroundFrame];
     window.opaque = NO;
     window.backgroundColor = [NSColor clearColor];
     ArnMotionInstallGlass(window.contentView);
-    ArnMotionInstallTitleGlass(window);
+    if (@available(macOS 10.14, *))
+        window.appearance = [NSAppearance appearanceNamed:NSAppearanceNameDarkAqua];
+    window.delegate = self;
+    window.movable = YES;
+    window.movableByWindowBackground = YES;
+    window.level = NSNormalWindowLevel;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(downloadFinished:)
+        name:@"ArnMotionDownloadFinished" object:self.downloader];
     [window center];
     [self label:@"Endereço do vídeo (http ou https):" frame:NSMakeRect(24, 383, 570, 22)];
     NSTextField *url = [[NSTextField alloc] initWithFrame:NSMakeRect(24, 348, 570, 28)];
@@ -107,6 +141,7 @@ static void *ArnDownloadObservation = &ArnDownloadObservation;
 
 - (void)dealloc
 {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
     if (_observing)
         for (NSString *key in @[@"running", @"progress", @"status"])
             [_downloader removeObserver:self forKeyPath:key context:ArnDownloadObservation];
@@ -136,7 +171,7 @@ static void *ArnDownloadObservation = &ArnDownloadObservation;
     self.formatPopup.enabled = !running;
     self.chooseFolderButton.enabled = !running;
     self.downloadButton.enabled = !running && self.authorizationCheck.state == NSOnState && url.length > 0;
-    self.cancelButton.enabled = running;
+    self.cancelButton.enabled = YES;
 }
 - (void)controlTextDidChange:(NSNotification *)notification { [self updateControls]; }
 - (IBAction)authorizationChanged:(id)sender { [self updateControls]; }
@@ -163,5 +198,24 @@ static void *ArnDownloadObservation = &ArnDownloadObservation;
     [self.downloader downloadURL:[NSURL URLWithString:text] folder:self.downloadFolder
         audioOnly:self.formatPopup.indexOfSelectedItem == 1];
 }
-- (IBAction)cancelDownload:(id)sender { [self.downloader cancel]; }
+- (BOOL)windowShouldClose:(id)sender
+{
+    [self.downloader cancel];
+    return YES;
+}
+- (IBAction)cancelDownload:(id)sender
+{
+    [self.downloader cancel];
+    [self close];
+}
+- (void)downloadFinished:(NSNotification *)notification
+{
+    NSURL *file = [notification.userInfo objectForKey:@"file"];
+    NSURL *folder = [notification.userInfo objectForKey:@"folder"];
+    [self close];
+    if (file && [[NSFileManager defaultManager] fileExistsAtPath:file.path])
+        [[NSWorkspace sharedWorkspace] activateFileViewerSelectingURLs:@[file]];
+    else if (folder)
+        [[NSWorkspace sharedWorkspace] openURL:folder];
+}
 @end

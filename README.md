@@ -1,34 +1,33 @@
-# ArnMotion Player 1.0.0
+# ArnMotion Player 1.0.1 — Studio Arn
 
-ArnMotion Player 1.0.0 — Studio Arn
 Projeto pessoal de melhorias, sem fins lucrativos.
 Programador: Alessandro Henriques Teixeira.
-Contato e PIX para doações: studioarn@aletecweb.com.br
+Contato e PIX: studioarn@aletecweb.com.br
 Site: https://www.aletecweb.com.br
-Base VLC 3.0.24 / VideoLAN. Créditos e licenças da base preservados.
+Base: VLC 3.0.24 / VideoLAN. Créditos e licenças originais preservados.
 
-INSTALAR: arraste ArnMotion Player.app para Aplicativos.
-Arquitetura do aplicativo: Intel x86_64.
-macOS mínimo detectado entre os componentes incluídos: 15.0.
-Em Apple Silicon esta build Intel precisa de Rosetta 2; não é um app universal
-nativo e o funcionamento em Apple Silicon ainda precisa ser testado.
+## Melhorias
+Download autorizado de vídeo MP4 e áudio MP3; opção de usar localmente a sessão do Chrome no YouTube.
+Janela de download com vidro integral, movimentação pelo fundo, Fechar e Cancelar.
+Conclusão bem-sucedida fecha a janela e revela o arquivo no Finder.
+Ícones próprios do aplicativo e documentos, com indicação de formato.
+Volume até 400%; barra de progresso vermelha e verde com 50% de opacidade.
+Atualizador VideoLAN/Sparkle desativado.
 
-DOWNLOAD: yt-dlp 2026.08.19, FFmpeg, FFprobe e Deno estão incluídos.
-Não é necessário instalar Homebrew para usar as ferramentas empacotadas.
-Para o YouTube, quando exigido, abra o vídeo no Chrome conectado à sua conta
-e marque Usar sessão do Chrome no YouTube no player. Cookies e contas não
-estão incluídos no pacote. Baixe somente conteúdos próprios ou autorizados.
+## Instalação e compatibilidade
+Build Intel x86_64; não universal. O macOS mínimo da distribuição é informado na Release.
+Apple Silicon depende de Rosetta 2 e ainda requer teste.
+Arraste o aplicativo do DMG para Aplicativos. A miniatura do Finder permanece quando disponível.
+Os ícones de documento dependem da associação dos arquivos ao ArnMotion Player.
+Ferramentas yt-dlp, FFmpeg, FFprobe e Deno são incorporadas pelo finalizador do DMG.
+Quando o YouTube exigir sessão, abra o vídeo no Chrome conectado e marque a opção no player.
+O aplicativo não inclui contas, senhas ou cookies. Baixe somente conteúdo próprio ou autorizado.
 
-DOAÇÕES: contribua para que o Studio Arn desenvolva melhorias.
-PIX (chave e-mail): studioarn@aletecweb.com.br
+## Licenças e doações
+Consulte COPYING, COPYING.LIB, AUTHORS e THANKS para o código-base VLC/VideoLAN.
+Faça uma doação para apoiar as melhorias pessoais do Studio Arn.
+PIX (chave e-mail): studioarn@aletecweb.com.br.
 
-ASSINATURA: assinatura local (ad hoc), sem notarização Apple.
-Outro Mac pode pedir autorização em Ajustes do Sistema > Privacidade e
-Segurança. Não desative o Gatekeeper. Uma distribuição notarizada requer
-certificado Developer ID e uma etapa separada de notarização.
-
-FONTES: há um arquivo de fontes correspondente junto ao DMG na pasta desta
-release. Ele deve acompanhar a distribuição, com as licenças originais.
-
-
-Código baseado no VLC 3.0.24. Consulte COPYING, COPYING.LIB, AUTHORS e THANKS para as licenças e os créditos originais.
+## Compilação
+Use extras/package/macosx/build.sh com a arquitetura x86_64 para a build Intel.
+Execute o finalizador apenas após compilar e testar a aplicação.

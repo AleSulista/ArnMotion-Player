@@ -105,7 +105,7 @@
     [o_revision_field setStringValue:@"Programador: Alessandro Henriques Teixeira • Studio Arn"];
 
     /* Setup the nameversion field */
-    [o_name_version_field setStringValue: [NSString stringWithFormat:@"ArnMotion Player • Base VLC %s (%s)", VERSION_MESSAGE, PLATFORM]];
+    [o_name_version_field setStringValue: [NSString stringWithFormat:@"ArnMotion Player 1.0.1 • Base VLC %s (%s)", VERSION_MESSAGE, PLATFORM]];
 
     NSMutableArray *tmpArray = [NSMutableArray arrayWithArray: [toNSStr(psz_authors) componentsSeparatedByString:@"\n\n"]];
     NSUInteger count = [tmpArray count];

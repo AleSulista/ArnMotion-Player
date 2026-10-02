@@ -53,6 +53,7 @@
     }
     NSMutableArray *arguments = [NSMutableArray arrayWithArray:@[
         @"--ignore-config", @"--no-playlist", @"--newline", @"--progress", @"--no-color",
+        @"--print", @"after_move:ARNMOTION_FILE:%(filepath)s", @"--no-simulate",
         @"--restrict-filenames", @"--no-overwrites", @"--ffmpeg-location", ffmpeg]];
     NSString *host = URL.host.lowercaseString;
     BOOL youtube = [host isEqualToString:@"youtube.com"] ||
@@ -95,9 +96,12 @@
             NSRegularExpression *percent = [NSRegularExpression regularExpressionWithPattern:
                 @"\\[download\\]\\s+([0-9]+(?:\\.[0-9]+)?)%" options:0 error:NULL];
             __block NSString *lastError = nil;
+            __block NSString *completedPath = nil;
             void (^consume)(NSData *) = ^(NSData *lineData) {
                 NSString *line = [[NSString alloc] initWithData:lineData encoding:NSUTF8StringEncoding];
                 if (!line.length) return;
+                if ([line hasPrefix:@"ARNMOTION_FILE:"])
+                    completedPath = [line substringFromIndex:[@"ARNMOTION_FILE:" length]];
                 if ([line hasPrefix:@"ERROR:"]) lastError = line;
                 NSTextCheckingResult *match = [percent firstMatchInString:line options:0 range:NSMakeRange(0, line.length)];
                 if (match.numberOfRanges > 1) {
@@ -133,6 +137,7 @@
             [pipe.fileHandleForReading closeFile];
             dispatch_async(dispatch_get_main_queue(), ^{
                 if (self.task != task) return;
+                BOOL succeeded = !self.cancellationRequested && task.terminationStatus == 0;
                 if (self.cancellationRequested) self.status = @"Download cancelado.";
                 else if (task.terminationStatus == 0) {
                     self.progress = 100;
@@ -143,6 +148,13 @@
                 self.task = nil;
                 self.cancellationRequested = NO;
                 self.running = NO;
+                if (succeeded) {
+                    NSMutableDictionary *info = [NSMutableDictionary dictionaryWithObject:folder forKey:@"folder"];
+                    if (completedPath.length)
+                        [info setObject:[NSURL fileURLWithPath:completedPath] forKey:@"file"];
+                    [[NSNotificationCenter defaultCenter] postNotificationName:@"ArnMotionDownloadFinished"
+                        object:self userInfo:info];
+                }
             });
         }
     });

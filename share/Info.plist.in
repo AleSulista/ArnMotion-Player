@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-FLV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Flash Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -50,7 +50,7 @@
 				<string>gvp</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-GVP.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Google Video Playlist</string>
 			<key>CFBundleTypeRole</key>
@@ -62,7 +62,7 @@
 				<string>dvdmedia</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-DVDMEDIA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DVD Media Document</string>
 			<key>CFBundleTypeRole</key>
@@ -76,7 +76,7 @@
 				<string>xspf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-XSPF.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>application/xspf+xml</string>
@@ -92,7 +92,7 @@
 				<string>xa</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-XA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>The Sims Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -104,7 +104,7 @@
 				<string>xesc</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-XESC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Expression Encoder Screen Capture File</string>
 			<key>CFBundleTypeRole</key>
@@ -112,7 +112,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-PLS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Shoutcast playlist</string>
 			<key>CFBundleTypeRole</key>
@@ -124,7 +124,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-M3U.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Playlist file</string>
 			<key>CFBundleTypeRole</key>
@@ -140,7 +140,7 @@
 				<string>org.videolan.vlc</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-VLC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>VLC file</string>
 			<key>CFBundleTypeRole</key>
@@ -148,7 +148,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-ASX.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>ASX file</string>
 			<key>CFBundleTypeRole</key>
@@ -164,7 +164,7 @@
 				<string>b4s</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-B4S.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>B4S file</string>
 			<key>CFBundleTypeRole</key>
@@ -176,9 +176,9 @@
 				<string>ape</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-APE.icns</string>
 			<key>CFBundleTypeName</key>
-			<string>Monkey&apos;s Audio Lossless Audio Compression</string>
+			<string>Monkey's Audio Lossless Audio Compression</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>LSTypeIsPackage</key>
@@ -188,7 +188,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-FLAC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>FLAC Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -204,7 +204,7 @@
 				<string>wv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-WV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>WavePack Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -220,7 +220,7 @@
 				<string>tta</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-TTA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>True Audio Free Lossless Audio</string>
 			<key>CFBundleTypeRole</key>
@@ -236,7 +236,7 @@
 				<string>mpc</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MPC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Musepack Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -244,7 +244,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-RMVB.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>RealPlayer Media Files</string>
 			<key>CFBundleTypeRole</key>
@@ -252,7 +252,29 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.real.realmedia-vbr</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-RA.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>RealPlayer Media Files</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
 				<string>com.real.realaudio</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-RM.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>RealPlayer Media Files</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
 				<string>com.real.realmedia</string>
 			</array>
 		</dict>
@@ -262,7 +284,7 @@
 				<string>img</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-IMG.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>IMG Disk Image</string>
 			<key>CFBundleTypeRole</key>
@@ -272,10 +294,21 @@
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>mod</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-MOD.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>MOD Audio File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>xm</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-XM.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MOD Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -287,7 +320,7 @@
 				<string>it</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-IT.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Impulse Tracker Module File</string>
 			<key>CFBundleTypeRole</key>
@@ -299,7 +332,7 @@
 				<string>xm</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-XM.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>XM audio file</string>
 			<key>CFBundleTypeRole</key>
@@ -311,7 +344,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AIFF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>AIFF file</string>
 			<key>CFBundleTypeRole</key>
@@ -319,12 +352,23 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.aiff-audio</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-AIFC.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>AIFF file</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
 				<string>public.aifc-audio</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AMR.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Adaptive Multi-Rate Codec File</string>
 			<key>CFBundleTypeRole</key>
@@ -340,7 +384,7 @@
 				<string>aob</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AOB.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DVD-Audio Audio Object File</string>
 			<key>CFBundleTypeRole</key>
@@ -352,7 +396,7 @@
 				<string>dts</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-DTS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DTS Encoded Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -360,7 +404,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-DAV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DAV Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -376,7 +420,7 @@
 				<string>spx</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-SPX.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>audio/ogg</string>
@@ -392,7 +436,7 @@
 				<string>sdp</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-SDP.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Session Description Protocol File</string>
 			<key>CFBundleTypeRole</key>
@@ -400,7 +444,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-WAV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>WAVE Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -416,7 +460,7 @@
 				<string>vob</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-VOB.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>VOB File (DVD Video)</string>
 			<key>CFBundleTypeRole</key>
@@ -428,7 +472,7 @@
 				<string>dat</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-DAT.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DAT file</string>
 			<key>CFBundleTypeRole</key>
@@ -440,7 +484,7 @@
 				<string>cue</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-CUE.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>CUE file</string>
 			<key>CFBundleTypeRole</key>
@@ -452,7 +496,7 @@
 				<string>cdg</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-CDG.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Compact Disc Plus Graphics Image file</string>
 			<key>CFBundleTypeRole</key>
@@ -460,7 +504,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MIDIA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>ISO file</string>
 			<key>CFBundleTypeRole</key>
@@ -476,7 +520,7 @@
 				<string>idx</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-IDX.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Index file</string>
 			<key>CFBundleTypeRole</key>
@@ -484,7 +528,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AC3.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Digital Audio</string>
 			<key>CFBundleTypeRole</key>
@@ -496,7 +540,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AAC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>AAC file</string>
 			<key>CFBundleTypeRole</key>
@@ -512,7 +556,7 @@
 				<string>opus</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OPUS.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>audio/opus</string>
@@ -533,7 +577,7 @@
 				<string>ogm</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OGM.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Ogg MPEG-4 Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -545,7 +589,7 @@
 				<string>ogg</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OGG.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>audio/ogg</string>
@@ -561,7 +605,7 @@
 				<string>oga</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OGA.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>audio/ogg</string>
@@ -577,7 +621,7 @@
 				<string>ogv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OGM.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>video/ogg</string>
@@ -597,7 +641,7 @@
 				<string>ogx</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OGX.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>application/ogg</string>
@@ -613,7 +657,7 @@
 				<string>oma</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-OMA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Sony OpenMG Music File</string>
 			<key>CFBundleTypeRole</key>
@@ -625,7 +669,7 @@
 				<string>voc</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-VOC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Creative Labs Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -637,7 +681,7 @@
 				<string>vqf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-VQF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>TwinVQ Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -649,7 +693,7 @@
 				<string>anx</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-ANX.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>application/annodex</string>
@@ -665,7 +709,7 @@
 				<string>axa</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AXA.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>audio/annodex</string>
@@ -681,7 +725,7 @@
 				<string>axv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AXV.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>video/annodex</string>
@@ -697,7 +741,7 @@
 				<string>gxf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-GXF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>General eXchange Format File</string>
 			<key>CFBundleTypeRole</key>
@@ -713,7 +757,7 @@
 				<string>mxf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MXF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Material Exchange Format</string>
 			<key>CFBundleTypeRole</key>
@@ -725,7 +769,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AVI.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>AVI container</string>
 			<key>CFBundleTypeRole</key>
@@ -741,7 +785,7 @@
 				<string>bik</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-BIK.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Bink Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -753,7 +797,7 @@
 				<string>crf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-CRF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>CRF Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -765,7 +809,7 @@
 				<string>evo</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-EVO.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>EVO Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -773,7 +817,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MOV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Apple QuickTime container</string>
 			<key>CFBundleTypeRole</key>
@@ -789,7 +833,7 @@
 				<string>divx</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-DIVX.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DivX file</string>
 			<key>CFBundleTypeRole</key>
@@ -797,7 +841,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-DV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DV file</string>
 			<key>CFBundleTypeRole</key>
@@ -809,7 +853,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-ASF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Advanced Streaming Format</string>
 			<key>CFBundleTypeRole</key>
@@ -821,7 +865,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-WMA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Windows Media Audio</string>
 			<key>CFBundleTypeRole</key>
@@ -833,7 +877,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-WMV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Windows Media Video</string>
 			<key>CFBundleTypeRole</key>
@@ -841,6 +885,17 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.microsoft.windows-media-wm</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-WMV.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Windows Media Video</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
 				<string>com.microsoft.windows-media-wmv</string>
 			</array>
 		</dict>
@@ -850,7 +905,7 @@
 				<string>wtv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-WTV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Windows Recorded TV Show</string>
 			<key>CFBundleTypeRole</key>
@@ -858,7 +913,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MPEG.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>multiplexed MPEG-1/2</string>
 			<key>CFBundleTypeRole</key>
@@ -874,7 +929,7 @@
 				<string>m1v</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-M1V.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-1 Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -886,7 +941,7 @@
 				<string>m2a</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-M2A.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-1/2 Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -898,7 +953,7 @@
 				<string>mp1</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MP1.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG Audio Layer 1</string>
 			<key>CFBundleTypeRole</key>
@@ -906,7 +961,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MP2.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG Audio Layer 2</string>
 			<key>CFBundleTypeRole</key>
@@ -918,7 +973,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MP3.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG Audio Layer 3</string>
 			<key>CFBundleTypeRole</key>
@@ -932,10 +987,21 @@
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>m2p</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-M2P.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-2 Program Stream</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>ps</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-PS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-2 Program Stream</string>
 			<key>CFBundleTypeRole</key>
@@ -945,14 +1011,89 @@
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>tp</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-TP.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp2t</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-2 Transport Stream</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>ts</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-TS.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp2t</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-2 Transport Stream</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>m2t</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-M2T.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp2t</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-2 Transport Stream</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>m2ts</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-M2TS.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp2t</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-2 Transport Stream</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>mts</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-MTS.icns</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>video/mp2t</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-2 Transport Stream</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>mt2s</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MT2S.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>video/mp2t</string>
@@ -964,7 +1105,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-M2V.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-2 Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -980,7 +1121,7 @@
 				<string>mpa</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MPA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-2 Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -988,7 +1129,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-M4A.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-4 File</string>
 			<key>CFBundleTypeRole</key>
@@ -996,13 +1137,35 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.mpeg-4-audio</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-M4V.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-4 File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
 				<string>com.apple.m4v-video</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-MP4.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>MPEG-4 File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
 				<string>public.mpeg-4</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-M4A.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MPEG-4 Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -1014,7 +1177,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-3GP.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>3GPP File</string>
 			<key>CFBundleTypeRole</key>
@@ -1026,7 +1189,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MID.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>MIDI File</string>
 			<key>CFBundleTypeRole</key>
@@ -1042,7 +1205,7 @@
 				<string>mlp</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MLP.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Meridian Lossless Packing Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -1050,7 +1213,7 @@
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MKA.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Matroska Audio File</string>
 			<key>CFBundleTypeRole</key>
@@ -1066,7 +1229,7 @@
 				<string>mkv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MKV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Matroska Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -1078,7 +1241,7 @@
 				<string>webm</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-WEBM.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>WebM Video File</string>
 			<key>CFBundleTypeRole</key>
@@ -1090,7 +1253,7 @@
 				<string>rar</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-RAR.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>WinRAR Compressed Archive</string>
 			<key>CFBundleTypeRole</key>
@@ -1106,7 +1269,7 @@
 				<string>rec</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-REC.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Topfield PVR Recording</string>
 			<key>CFBundleTypeRole</key>
@@ -1118,7 +1281,7 @@
 				<string>rmi</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-RMI.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>RMID MIDI File</string>
 			<key>CFBundleTypeRole</key>
@@ -1130,7 +1293,7 @@
 				<string>s3m</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-S3M.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>ScreamTracker 3 Module</string>
 			<key>CFBundleTypeRole</key>
@@ -1142,7 +1305,7 @@
 				<string>vro</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-VRO.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>DVD Video Recording Format</string>
 			<key>CFBundleTypeRole</key>
@@ -1154,7 +1317,7 @@
 				<string>tod</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-TOD.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>JVC Everio Video Capture File</string>
 			<key>CFBundleTypeRole</key>
@@ -1166,7 +1329,7 @@
 				<string>mks</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MKS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Matroska Elementry Stream</string>
 			<key>CFBundleTypeRole</key>
@@ -1178,7 +1341,7 @@
 				<string>nsv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-NSV.icns</string>
 			<key>CFBundleTypeMIMETypes</key>
 			<array>
 				<string>video/nsv</string>
@@ -1198,7 +1361,7 @@
 				<string>nuv</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-NUV.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>NuppleVideo File</string>
 			<key>CFBundleTypeRole</key>
@@ -1216,10 +1379,25 @@
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>ssa</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-SSA.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Sub Station Alpha Subtitle File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>Binary</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>ass</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-ASS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Sub Station Alpha Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1235,7 +1413,7 @@
 				<string>usf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-USF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>USF Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1251,7 +1429,7 @@
 				<string>utf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-UTF.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>UTF Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1263,7 +1441,7 @@
 				<string>srt</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-SRT.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Subrip Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1279,7 +1457,7 @@
 				<string>rt</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-RT.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>RealText Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1295,7 +1473,7 @@
 				<string>smi</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-SMI.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>SAMI Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1311,7 +1489,7 @@
 				<string>aqt</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-AQT.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>AQTitle Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1327,7 +1505,7 @@
 				<string>jss</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-JSS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>JACOSub Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1343,7 +1521,7 @@
 				<string>pjs</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-PJS.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Phoenix Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1359,7 +1537,7 @@
 				<string>psb</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-PSB.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>PowerDivX Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1373,10 +1551,25 @@
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>sub</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ArnMotion-SUB.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Subtitle File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>Binary</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
 				<string>mpsub</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>ArnMotionArq.icns</string>
+			<string>ArnMotion-MPSUB.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Subtitle File</string>
 			<key>CFBundleTypeRole</key>
@@ -1400,7 +1593,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>ArnMotion Player</string>
 	<key>CFBundleShortVersionString</key>
-	<string>@VERSION@</string>
+	<string>1.0.1</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
@@ -1532,7 +1725,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>@VERSION@</string>
+	<string>1.0.1</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.video</string>
 	<key>LSMinimumSystemVersion</key>
@@ -1578,6 +1771,8 @@
 					<string>vlc</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-VLC.icns</string>
 		</dict>
 	</array>
 	<key>UTImportedTypeDeclarations</key>
@@ -1605,6 +1800,8 @@
 					<string>video/x-flv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-FLV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1622,6 +1819,8 @@
 					<string>xa</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-XA.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1639,6 +1838,8 @@
 					<string>xesc</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-XESC.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1646,7 +1847,7 @@
 				<string>public.audio</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Monkey&apos;s Audio Lossless Audio</string>
+			<string>Monkey's Audio Lossless Audio</string>
 			<key>UTTypeIdentifier</key>
 			<string>org.videolan.ape</string>
 			<key>UTTypeTagSpecification</key>
@@ -1656,6 +1857,8 @@
 					<string>ape</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-APE.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1677,6 +1880,8 @@
 					<string>audio/flac</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-FLAC.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1694,6 +1899,8 @@
 					<string>wv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-WV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1711,6 +1918,8 @@
 					<string>tta</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-TTA.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1738,6 +1947,8 @@
 					<string>audio/x-realaudio</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-RA.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1776,6 +1987,8 @@
 					<string>audio/x-pn-realaudio-plugin</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-RM.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1797,6 +2010,8 @@
 					<string>audio/x-pn-realaudio</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-RAM.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1814,6 +2029,8 @@
 					<string>mpc</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-MPC.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1842,6 +2059,8 @@
 					<string>audio/module-mod</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-MOD.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1859,6 +2078,8 @@
 					<string>it</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-IT.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1876,6 +2097,8 @@
 					<string>xm</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-XM.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1893,6 +2116,8 @@
 					<string>amr</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-AMR.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1910,6 +2135,8 @@
 					<string>aob</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-AOB.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1927,6 +2154,8 @@
 					<string>dts</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-DTS.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1944,6 +2173,8 @@
 					<string>spx</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-SPX.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1961,6 +2192,8 @@
 					<string>vob</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-VOB.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1978,6 +2211,8 @@
 					<string>opus</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-OPUS.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -1996,6 +2231,8 @@
 					<string>ogv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-OGM.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2014,6 +2251,8 @@
 					<string>oga</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-OGG.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2031,6 +2270,8 @@
 					<string>oma</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-OMA.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2048,6 +2289,8 @@
 					<string>voc</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-VOC.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2065,6 +2308,8 @@
 					<string>vqf</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-VQF.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2082,6 +2327,8 @@
 					<string>axa</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-AXA.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2099,6 +2346,8 @@
 					<string>axv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-AXV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2116,6 +2365,8 @@
 					<string>gxf</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-GXF.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2133,6 +2384,8 @@
 					<string>mxf</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-MXF.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2150,6 +2403,8 @@
 					<string>divx</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-DIVX.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2167,6 +2422,8 @@
 					<string>wtv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-WTV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2191,6 +2448,8 @@
 					<string>mt2s</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-M2P.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2208,6 +2467,8 @@
 					<string>mlp</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-MLP.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2225,6 +2486,8 @@
 					<string>mka</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-MKA.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2242,6 +2505,8 @@
 					<string>mkv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-MKV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2260,6 +2525,8 @@
 					<string>webm</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-WEBM.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2277,6 +2544,8 @@
 					<string>rec</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-REC.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2294,6 +2563,8 @@
 					<string>rmi</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-RMI.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2311,6 +2582,8 @@
 					<string>s3m</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-S3M.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2328,6 +2601,8 @@
 					<string>vro</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-VRO.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2345,6 +2620,8 @@
 					<string>tod</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-TOD.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2362,6 +2639,8 @@
 					<string>nsv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-NSV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2379,6 +2658,8 @@
 					<string>nuv</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-NUV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2396,6 +2677,8 @@
 					<string>dav</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-DAV.icns</string>
 		</dict>
 		<dict>
 			<key>UTTypeConformsTo</key>
@@ -2419,6 +2702,8 @@
 					<string>application/x-rar-compressed</string>
 				</array>
 			</dict>
+			<key>UTTypeIconFile</key>
+			<string>ArnMotion-RAR.icns</string>
 		</dict>
 	</array>
 </dict>

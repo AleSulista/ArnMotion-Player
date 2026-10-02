@@ -53,12 +53,3 @@ build*/
 contrib-*
 install-*
 !extras/package/apple/build.sh
-
-# Artefatos locais do ArnMotion
-build-intel/
-build-arm/
-build-arm64/
-contrib/tarballs/
-*.dmg
-*.backup-*
-.DS_Store
