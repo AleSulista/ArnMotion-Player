@@ -1,4 +1,5 @@
-# ArnMotion Player 1.0.1 — Studio Arn
+
+# Heinteira Motion Player 1.0.1 — Heinteira Studio
 
 Projeto pessoal de melhorias, sem fins lucrativos.
 Programador: Alessandro Henriques Teixeira.
@@ -18,14 +19,14 @@ Atualizador VideoLAN/Sparkle desativado.
 Build Intel x86_64; não universal. O macOS mínimo da distribuição é informado na Release.
 Apple Silicon depende de Rosetta 2 e ainda requer teste.
 Arraste o aplicativo do DMG para Aplicativos. A miniatura do Finder permanece quando disponível.
-Os ícones de documento dependem da associação dos arquivos ao ArnMotion Player.
+Os ícones de documento dependem da associação dos arquivos ao Heinteira Motion Player.
 Ferramentas yt-dlp, FFmpeg, FFprobe e Deno são incorporadas pelo finalizador do DMG.
 Quando o YouTube exigir sessão, abra o vídeo no Chrome conectado e marque a opção no player.
 O aplicativo não inclui contas, senhas ou cookies. Baixe somente conteúdo próprio ou autorizado.
 
 ## Licenças e doações
 Consulte COPYING, COPYING.LIB, AUTHORS e THANKS para o código-base VLC/VideoLAN.
-Faça uma doação para apoiar as melhorias pessoais do Studio Arn.
+Faça uma doação para apoiar as melhorias pessoais do Heinteira Studio.
 PIX (chave e-mail): studioarn@aletecweb.com.br.
 
 ## Compilação
